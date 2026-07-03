@@ -579,7 +579,7 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 2rem;
   justify-content: center;      /* this is important */
-  align-items: start;
+  align-items: stretch;
   max-width: 1000px;            /* prevents too wide layouts */
   margin: 2rem auto;
   padding: 0 1rem;
@@ -622,7 +622,12 @@ body {
   box-sizing: border-box;
   text-align: center;
   max-width: 300px;
-  margin: auto;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 
