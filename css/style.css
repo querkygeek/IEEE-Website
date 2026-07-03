@@ -311,6 +311,18 @@ body {
     display: flex;
   }
 
+  .nav-links li {
+    width: 100%;
+  }
+
+  .nav-links li a {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 44px; /* Minimum touch target size */
+    padding: 0.5rem 0;
+  }
+
   .navbar .menu-toggle {
     display: block;
     cursor: pointer;
@@ -337,6 +349,23 @@ body {
     padding: 1.5rem;
     background-color: rgba(0, 0, 0, 0.4); /* optional for readability */
     border-radius: 10px;
+    width: 90%;
+  }
+
+  .section {
+    padding: 2rem 1rem;
+  }
+
+  .data-table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .map-container iframe {
+    width: 100% !important;
+    height: 350px;
   }
 
   /* Adjust images in about section */
